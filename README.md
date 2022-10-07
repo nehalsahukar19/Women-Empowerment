@@ -21,10 +21,6 @@ To run the project locally you need to have Nodejs and npm installed.
   you will get the local host server in http://localhost:3000/
 ```
 
-## How to contribute
 
-We appreciate all kinds of contributions from anyone.
-
-Please check the [contributing guide](CONTRIBUTING.md) to become a contributor.
 
 
