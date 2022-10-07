@@ -22,8 +22,9 @@ To run the project locally you need to have Nodejs and npm installed.
 ```
 
 
-Contributers
+Contributers:
 https://github.com/sushrithahs
+https://github.com/tanmai22
 
 
 
