@@ -27,6 +27,4 @@ We appreciate all kinds of contributions from anyone.
 
 Please check the [contributing guide](CONTRIBUTING.md) to become a contributor.
 
-## License
 
-[MIT](https://github.com/shikha-16/Women-in-Technology/blob/master/LICENSE)
