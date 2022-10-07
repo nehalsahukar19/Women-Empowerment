@@ -1,0 +1,53 @@
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import { Switch } from "react-router";
+import "./App.css";
+import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
+import IndexPage from "./pages/index";
+import ScholarshipPage from "./pages/scholarship";
+import ResourcesPage from "./pages/resources";
+import OrganisationComponent from "./pages/organization";
+import inspirations from "./pages/inspirations";
+import ArticlesPage from "./pages/articles";
+// import infographics from "./pages/infographics";
+import CommunityPage from "./pages/community";
+import ContributingPage from "./pages/contributing";
+import GithubPage from "./pages/github";
+import EventsPage from "./pages/events";
+import After10thPage from "./pages/After10th";
+import After12thPage from "./pages/After12th";
+
+import ScrollButton from "./components/Scroll/ScrollButton";
+import OrganisationPage from "./pages/organization";
+import JobPage from "./pages/Job";
+
+function App() {
+  return (
+    <div className="App">
+      <Router>
+        <Header />
+        <Switch>
+          <Route path="/" exact component={IndexPage} />
+          <Route path="/scholarship" exact component={ScholarshipPage} />
+          <Route path="/resources" exact component={ResourcesPage} />
+          <Route path="/organisation" exact component={OrganisationPage} />
+          {/* <Route path="/infographics" exact component={infographics} /> */}
+          <Route path="/articless" exact component={ArticlesPage} />
+          <Route path="/community" exact component={CommunityPage} />
+          <Route path="/inspirations" exact component={inspirations} />
+          <Route path="/contributing" exact component={ContributingPage} />
+          <Route path="/github" exact component={GithubPage} />
+          <Route path="/events" exact component={EventsPage} />
+          <Route path="/after10th" exact component={After10thPage}></Route>
+          <Route path="/after12th" exact component={After12thPage}></Route>
+          <Route path="/job" exact component={JobPage}></Route>
+             
+        </Switch>
+        <Footer />
+      </Router>
+      <ScrollButton />
+    </div>
+  );
+}
+
+export default App;

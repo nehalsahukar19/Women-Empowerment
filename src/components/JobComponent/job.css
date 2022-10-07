@@ -1,0 +1,18 @@
+.outline{
+    border: 3px solid black;
+}
+#bank{
+    text-decoration: none;
+
+}
+.borders{
+    border:1px solid #000000;
+    margin-left: auto;
+    margin-right: auto;
+}
+#insu{
+    font-weight: 900;
+}
+#spann{
+    color: rgb(19, 169, 239);
+}
